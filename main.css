@@ -1,0 +1,48 @@
+body {
+    background: radial-gradient(circle, #0a0a0a 60%, #1a1a1a);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+  h1.neon-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    color: #f72585;
+    text-shadow: 0 0 10px #f72585, 0 0 20px #7209b7, 0 0 40px #f72585;
+  }
+  h2.section-title {
+    color: #4cc9f0;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .btn-neon {
+    background: #7209b7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-shadow: 0 0 5px #fff;
+  }
+  .btn-neon:hover {
+    background: #fff;
+    color: #0a0a0a;
+  }
+  .photo-glow {
+    border-radius: 15px;
+    box-shadow: 0 0 20px #f72585, 0 0 40px #3a0ca3, 0 0 60px #4cc9f0;
+    max-width: 100%;
+  }
+  .nav-link {
+    color: #fff;
+    font-weight: 500;
+  }
+  .nav-link:hover {
+    color: #f72585;
+  }
+  footer {
+    background-color: #111;
+    color: #bbb;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 4rem;
+  }
